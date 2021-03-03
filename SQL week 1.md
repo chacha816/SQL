@@ -193,13 +193,16 @@ and created_at BETWEEN "2020-07-12" and "2020-07-14";
 
 ### 6. LIMIT : 상위 데이터 일부만 가져오기
 
-* 어떤 데이터가 있는지 간단히 확인할 때 사용
+* 전체 테이블 구조를 빠르고 간단하게 확인할 때 사용
   * Python에서 head(함수)와 같은 문법
 
 ~~~
 SELECT * FROM orders
 where payment_method = "kakaopay"
 LIMIT 5
+
+SELECT * FROM checkins 
+limit 10
 ~~~
 
 
