@@ -1,4 +1,4 @@
-## SQL week 1
+## SQL 1주차 정리
 
 ### [DBeaver로 SQL 살펴보기]
 
