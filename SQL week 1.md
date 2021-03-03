@@ -194,7 +194,7 @@ and created_at BETWEEN "2020-07-12" and "2020-07-14";
 ### 6. LIMIT : 상위 데이터 일부만 가져오기
 
 * 어떤 데이터가 있는지 간단히 확인할 때 사용
-  * Python에서 head와 같은 문법
+  * Python에서 head(함수)와 같은 문법
 
 ~~~
 SELECT * FROM orders
